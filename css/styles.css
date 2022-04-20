@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Outfit:wght@400;700&display=swap');
 
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
     margin: 0;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    overflow-y: hidden;
 }
 img{
     max-width: 100%;
@@ -16,7 +21,7 @@ img{
     padding: 15px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
-    margin: 100px auto;
+    margin: 100px;
     border: 1px solid hsl(0, 15%, 86%);
 }
 .text-container{
